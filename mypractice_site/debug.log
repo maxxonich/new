@@ -1,0 +1,687 @@
+2022-10-17 08:58:01,170 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:00:29,298 django.request WARNING  Bad Request: /token/refresh/
+2022-10-17 09:00:53,963 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:01:20,444 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/?username=kali&password=kali (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:01:29,056 django.request WARNING  Method Not Allowed: /token/
+2022-10-17 09:01:34,695 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/?username=kali&password=kali (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:02:40,533 django.request ERROR    Internal Server Error: /token/refresh
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/refresh/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:03:47,354 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:04:04,272 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:05:10,297 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:05:43,051 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:07:40,659 django.request ERROR    Internal Server Error: /token/refresh
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/refresh/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:11:48,967 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/reviews/serializers.py changed, reloading.
+2022-10-17 09:11:50,278 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:12:59,418 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/reviews/views.py changed, reloading.
+2022-10-17 09:13:00,223 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:14:22,094 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/mypractice_site/urls.py changed, reloading.
+2022-10-17 09:14:23,355 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:16:06,106 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/mypractice_site/urls.py changed, reloading.
+2022-10-17 09:16:07,422 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:16:35,054 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/mypractice_site/urls.py changed, reloading.
+2022-10-17 09:16:36,035 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:17:29,881 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:17:41,691 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:18:02,792 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:20:29,824 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:20:35,577 django.request ERROR    Internal Server Error: /token
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2022-10-17 09:50:27,558 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:53:40,834 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 09:53:42,010 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:55:31,822 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 09:55:32,510 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 09:59:07,693 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:01:44,410 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 10:01:45,087 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:02:20,738 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 10:02:21,212 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:05:00,403 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 10:05:00,912 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:06:39,377 django.request WARNING  Not Found: /favicon.ico
+2022-10-17 10:10:30,275 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 10:10:31,391 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:11:41,289 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 10:11:42,249 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:14:57,508 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 10:14:58,028 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:15:04,544 django.request WARNING  Unauthorized: /auth/change_password/2/
+2022-10-17 10:18:15,178 django.request WARNING  Method Not Allowed: /auth/login/
+2022-10-17 10:18:35,943 django.request WARNING  Unauthorized: /auth/login/
+2022-10-17 10:18:45,274 django.request WARNING  Unauthorized: /auth/login/
+2022-10-17 10:20:32,453 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:21:49,860 django.request WARNING  Unauthorized: /auth/login/
+2022-10-17 10:22:57,611 django.request WARNING  Unauthorized: /auth/change_password/2/
+2022-10-17 10:23:21,852 django.request WARNING  Unauthorized: /auth/change_password/2/
+2022-10-17 10:24:23,244 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 10:24:23,793 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:24:33,987 django.request WARNING  Unauthorized: /auth/change_password/2/
+2022-10-17 10:28:41,090 django.request WARNING  Not Found: /favicon.ico
+2022-10-17 10:33:09,975 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 10:33:10,581 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:53:52,155 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 10:53:53,225 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:55:10,175 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 10:55:10,882 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 10:55:24,512 django.request WARNING  Unauthorized: /auth/change_password/
+2022-10-17 10:55:50,398 django.request WARNING  Not Found: /token/
+2022-10-17 10:56:04,279 django.request WARNING  Not Found: /token/
+2022-10-17 10:56:17,098 django.request WARNING  Not Found: /token/
+2022-10-17 11:26:49,728 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 11:26:51,072 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 11:28:40,700 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 11:28:41,585 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 11:28:50,233 django.request WARNING  Unauthorized: /auth/change_password/
+2022-10-17 11:29:10,552 django.request WARNING  Not Found: /
+2022-10-17 11:29:34,372 django.request WARNING  Unauthorized: /auth/change_password/
+2022-10-17 11:29:57,440 django.request WARNING  Not Found: /
+2022-10-17 11:30:14,217 django.request WARNING  Unauthorized: /auth/change_password/
+2022-10-17 11:34:51,150 django.request WARNING  Unauthorized: /auth/change_password/
+2022-10-17 11:35:08,207 django.request WARNING  Not Found: /login
+2022-10-17 11:35:19,270 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:35:19,271 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:35:19,298 django.request WARNING  Method Not Allowed: /auth/login/
+2022-10-17 11:35:43,479 django.request WARNING  Unauthorized: /auth/login/
+2022-10-17 11:36:42,922 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:36:42,939 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:36:43,017 django.request WARNING  Method Not Allowed: /auth/login/
+2022-10-17 11:36:59,828 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:36:59,829 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:43:08,405 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/mypractice_site/settings.py changed, reloading.
+2022-10-17 11:43:10,437 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 11:43:19,047 django.request WARNING  Not Found: /
+2022-10-17 11:43:31,705 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:43:31,705 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:43:31,790 django.request WARNING  Method Not Allowed: /auth/login/
+2022-10-17 11:43:46,576 django.request WARNING  Unauthorized: /auth/login/
+2022-10-17 11:44:08,525 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:44:08,526 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:44:43,285 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:44:43,286 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:44:43,336 django.request WARNING  Method Not Allowed: /auth/change_password/
+2022-10-17 11:45:37,960 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:45:37,960 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:45:37,999 django.request WARNING  Method Not Allowed: /auth/login/
+2022-10-17 11:45:54,893 django.request WARNING  Unauthorized: /auth/login/
+2022-10-17 11:46:29,422 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:46:29,424 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:46:41,579 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 11:46:41,582 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 11:46:41,625 django.request WARNING  Method Not Allowed: /auth/change_password/
+2022-10-17 11:48:03,921 django.request WARNING  Unauthorized: /auth/change_password/
+2022-10-17 11:48:16,453 django.request WARNING  Bad Request: /auth/change_password/
+2022-10-17 11:51:46,650 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 11:51:47,786 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:30:18,018 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 12:30:18,759 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:32:04,120 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 12:32:04,715 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:32:33,435 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 12:32:33,918 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:34:16,628 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 12:34:17,133 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:35:11,156 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 12:35:11,669 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:35:29,974 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 12:35:30,489 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:35:48,653 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-17 12:35:49,155 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:39:27,716 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 12:39:28,422 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:41:46,324 django.request WARNING  Method Not Allowed: /auth/update_profile/
+2022-10-17 12:42:10,314 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 12:42:11,048 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:42:32,515 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in put
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:42:48,404 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 12:42:49,147 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:42:52,116 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:44:34,799 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 12:44:34,800 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 12:44:34,866 django.request WARNING  Method Not Allowed: /auth/update_profile/
+2022-10-17 12:45:01,300 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:47:16,930 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:48:20,674 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 12:48:21,711 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:48:31,328 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 12:48:31,878 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:48:39,967 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:48:49,665 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 12:48:49,665 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 12:48:49,758 django.request WARNING  Method Not Allowed: /auth/update_profile/
+2022-10-17 12:48:50,145 django.request WARNING  Not Found: /favicon.ico
+2022-10-17 12:48:53,056 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:50:13,424 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 12:50:14,309 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:50:16,318 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'userdata'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.userdata)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'userdata'
+2022-10-17 12:50:22,426 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 12:50:22,427 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 12:50:22,467 django.request WARNING  Method Not Allowed: /auth/update_profile/
+2022-10-17 12:50:25,689 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'userdata'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.userdata)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'userdata'
+2022-10-17 12:52:21,885 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 12:52:22,485 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 12:52:28,396 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:52:34,415 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 12:52:34,416 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 12:52:34,480 django.request WARNING  Method Not Allowed: /auth/update_profile/
+2022-10-17 12:52:37,069 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data)
+TypeError: UpdateUserSerializer.update() missing 1 required positional argument: 'data'
+2022-10-17 12:59:25,172 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-17 12:59:25,742 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 13:02:43,093 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 13:02:44,296 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 13:02:51,245 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'request'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data,)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py", line 111, in update
+    if cls.validate_username(data['request'],instance) and cls.validate_email(data, instance):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'request'
+2022-10-17 13:03:02,083 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 13:03:02,083 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 13:03:02,142 django.request WARNING  Method Not Allowed: /auth/update_profile/
+2022-10-17 13:03:04,779 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'request'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data,)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py", line 111, in update
+    if cls.validate_username(data['request'],instance) and cls.validate_email(data, instance):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'request'
+2022-10-17 13:05:38,697 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 13:05:40,933 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-17 13:05:49,571 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'request'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data,)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py", line 111, in update
+    if cls.validate_username(data['request']) and cls.validate_email(data, instance):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'request'
+2022-10-17 13:05:53,606 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-17 13:05:53,607 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-17 13:05:53,647 django.request WARNING  Method Not Allowed: /auth/update_profile/
+2022-10-17 13:05:55,816 django.request ERROR    Internal Server Error: /auth/update_profile/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'request'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kali/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/views.py", line 42, in post
+    context = cls.serializer_class.update(request.user, request.data,)
+  File "/home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py", line 111, in update
+    if cls.validate_username(data['request']) and cls.validate_email(data, instance):
+  File "/usr/lib/python3/dist-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'request'
+2022-10-17 13:15:47,934 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/serializers.py changed, reloading.
+2022-10-17 13:15:48,655 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-18 07:56:02,520 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-18 07:56:14,784 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 07:56:14,785 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 07:56:14,857 django.request WARNING  Bad Request: /auth/update_profile/
+2022-10-18 07:59:04,066 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-18 07:59:05,337 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-18 08:00:39,010 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-18 08:00:40,059 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-18 08:01:07,201 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/urls.py changed, reloading.
+2022-10-18 08:01:08,218 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-18 08:04:56,854 django.utils.autoreload INFO     /home/kali/PycharmProjects/new/mypractice_site/auth/views.py changed, reloading.
+2022-10-18 08:04:57,983 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-10-18 08:06:12,773 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:06:12,774 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:06:12,872 django.request WARNING  Method Not Allowed: /auth/login/
+2022-10-18 08:06:18,319 django.request WARNING  Unauthorized: /auth/login/
+2022-10-18 08:06:28,017 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:06:28,018 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:07:41,992 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:07:41,993 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:07:42,018 django.request WARNING  Method Not Allowed: /auth/logout/
+2022-10-18 08:08:24,961 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:08:24,962 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:08:24,991 django.request WARNING  Bad Request: /auth/logout/
+2022-10-18 08:09:19,741 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:09:19,741 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:09:19,763 django.request WARNING  Method Not Allowed: /auth/login/
+2022-10-18 08:09:29,270 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:09:29,270 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:10:07,992 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:10:07,996 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:10:08,013 django.request WARNING  Method Not Allowed: /auth/logout/
+2022-10-18 08:10:13,323 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:10:13,324 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:10:13,332 django.request WARNING  Bad Request: /auth/logout/
+2022-10-18 08:10:54,165 django.request WARNING  Not Found: /auth/logout/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NzM3NjU2OSwiaWF0IjoxNjY2MDgwNTY5LCJqdGkiOiJmMTI1Y2EzZmM5ZGE0NjU0OWJhNjIyNjZiMTc2ZDFmNiIsInVzZXJfaWQiOjF9.kf4mDbsMgSgIysG-QOn8kN86UOzyzGkDg0WbVpsTdNo
+2022-10-18 08:11:40,531 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:11:40,531 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:11:40,554 django.request WARNING  Method Not Allowed: /auth/logout/
+2022-10-18 08:13:17,378 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2022-10-18 08:13:17,378 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2022-10-18 08:15:12,843 django.utils.autoreload INFO     Watching for file changes with StatReloader
